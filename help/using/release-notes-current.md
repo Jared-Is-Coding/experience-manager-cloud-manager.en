@@ -29,4 +29,4 @@ The release date for [!UICONTROL Cloud Manager] release 2022.3.0 is 10 March 202
 * A subset of git repositories created manually had an incorrect name value which prevented the build artifact reuse feature from being effective. The names of those repositories have been changed and users will see the corrected name in the Cloud Manager API/UI.
 * Build artifacts from non-production pipelines were inappropriately reused on production full stack pipelines.
  * When adding or editing a code quality pipeline, the options to handle metric failures is no longer displayed.
-* Some unexpected pipeline variable configurations could cause in the build step.
+* Some unexpected pipeline variable configurations could cause issues in the build step.
